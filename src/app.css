@@ -1,0 +1,82 @@
+@import 'tailwindcss';
+
+@theme {
+	/* Design System Colors - Aarokya "Kinetic Sanctuary" */
+	--color-surface-dim: #d9dadb;
+	--color-surface: #f8f9fa;
+	--color-surface-bright: #f8f9fa;
+	--color-surface-container: #edeeef;
+	--color-surface-container-low: #f3f4f5;
+	--color-surface-container-high: #e7e8e9;
+	--color-surface-container-highest: #e1e3e4;
+	--color-surface-container-lowest: #ffffff;
+	--color-surface-variant: #e1e3e4;
+	--color-surface-tint: #006a6a;
+
+	--color-background: #f8f9fa;
+	--color-on-background: #191c1d;
+
+	--color-primary: #006565;
+	--color-primary-container: #008080;
+	--color-primary-fixed: #93f2f2;
+	--color-primary-fixed-dim: #76d6d5;
+	--color-on-primary: #ffffff;
+	--color-on-primary-container: #e3fffe;
+	--color-on-primary-fixed: #002020;
+	--color-on-primary-fixed-variant: #004f4f;
+	--color-inverse-primary: #76d6d5;
+
+	--color-secondary: #005ab7;
+	--color-secondary-container: #0072e5;
+	--color-secondary-fixed: #d7e2ff;
+	--color-secondary-fixed-dim: #abc7ff;
+	--color-on-secondary: #ffffff;
+	--color-on-secondary-container: #fefcff;
+	--color-on-secondary-fixed: #001b3f;
+	--color-on-secondary-fixed-variant: #004590;
+
+	--color-tertiary: #006833;
+	--color-tertiary-container: #008442;
+	--color-tertiary-fixed: #83fba5;
+	--color-tertiary-fixed-dim: #66dd8b;
+	--color-on-tertiary: #ffffff;
+	--color-on-tertiary-container: #e8ffe8;
+	--color-on-tertiary-fixed: #00210c;
+	--color-on-tertiary-fixed-variant: #005227;
+
+	--color-error: #ba1a1a;
+	--color-error-container: #ffdad6;
+	--color-on-error: #ffffff;
+	--color-on-error-container: #93000a;
+
+	--color-on-surface: #191c1d;
+	--color-on-surface-variant: #3e4949;
+	--color-outline: #6e7979;
+	--color-outline-variant: #bdc9c8;
+
+	--color-inverse-surface: #2e3132;
+	--color-inverse-on-surface: #f0f1f2;
+
+	/* Font families */
+	--font-headline: 'Manrope', sans-serif;
+	--font-body: 'Inter', sans-serif;
+	--font-label: 'Inter', sans-serif;
+
+	/* Border radius */
+	--radius-lg: 0.5rem;
+	--radius-xl: 0.75rem;
+	--radius-2xl: 1rem;
+	--radius-3xl: 1.5rem;
+	--radius-4xl: 2rem;
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+	font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Glass navigation */
+.glass-nav {
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+}

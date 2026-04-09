@@ -13,14 +13,19 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/adapter-node": "^5.5.4",
 		"@sveltejs/kit": "^2.50.2",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
+		"@tailwindcss/vite": "^4.2.2",
 		"svelte": "^5.54.0",
 		"svelte-check": "^4.4.2",
+		"tailwindcss": "^4.2.2",
 		"typescript": "^5.9.3",
 		"vite": "^7.3.1"
 	},
 	"dependencies": {
-		"@google/stitch-sdk": "^0.0.3"
+		"@google/stitch-sdk": "^0.0.3",
+		"@pipecat-ai/client-js": "^1.7.0",
+		"@pipecat-ai/daily-transport": "^1.6.1"
 	}
 }
