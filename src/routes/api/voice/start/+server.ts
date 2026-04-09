@@ -2,10 +2,8 @@ import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { getAgent } from '$lib/agents';
 
-// ── Hardcoded config ──
-const BACKEND_URL = 'https://clairvoyance.breezelabs.app';
-const JWT_TOKEN =
-	'REDACTED';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://clairvoyance.breezelabs.app';
+const JWT_TOKEN = import.meta.env.VITE_JWT_TOKEN || '';
 
 export const POST: RequestHandler = async ({ request }) => {
 	const body = await request.json().catch(() => ({}));
